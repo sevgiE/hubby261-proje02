@@ -8,15 +8,14 @@ pencere = tk.Tk()
 pencere.title("Ana Pencere")
 pencere.geometry("200x100")
 
+
 baslik = Label(pencere, text="MiniÖrümcek")
 etiket1 = Label(pencere, text="[Mini örümceğe hoşgeldiniz!! ]")
 etiket2 = Label(pencere, text="[Lütfen bir sayı tuşlayınız. ]")
-etiket3 = Label(pencere, text="[Menüye yönlendiriliyorsunuz... ]")
-buton1 = Button(pencere, text="<<< Buton >>>", fg="red",bg="green")
-buton2 = Button(pencere, text="<<< Buton >>>", fg="black". bg="red", command=pencere
+etiket3 = Label(pencere, text="[Menü]")
 
 
-etiket.pack()
+etiket1.pack()
 etiket2.pack()
 etiket3.pack()
               
